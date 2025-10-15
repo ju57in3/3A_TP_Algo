@@ -10,6 +10,7 @@ add_executable(3A_TP_Algo
         TP1/main.h
         TP1/Stack_linked_list.h
         TP1/Stack.h
-        TP1/Queue.h
+        TP1/Queue_Array2.h
         TP1/Queue_Array.h
+        TP1/Queue_Linked_List.h
 )
