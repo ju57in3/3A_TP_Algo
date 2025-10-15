@@ -6,4 +6,10 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(3A_TP_Algo
-        TP1/main.cpp)
+        TP1/main.cpp
+        TP1/main.h
+        TP1/Stack_linked_list.h
+        TP1/Stack.h
+        TP1/Queue.h
+        TP1/Queue_Array.h
+)
