@@ -1,5 +1,6 @@
 #include "main.h"
 
+#include "Queue_Linked_List.h"
 
 
 int main() {
@@ -26,7 +27,6 @@ int main() {
     int b = queue.pop();
     int c = queue.pop();
     std::cout<<"Queue values Test : "<<a<<" "<<b<<" "<<c<<std::endl;
-*/
 
     Queue_Array<int> queue_array = Queue_Array<int>();
     queue_array.push(1);
@@ -35,6 +35,18 @@ int main() {
     int a = queue_array.pop();
     int b = queue_array.pop();
     int c = queue_array.pop();
+    std::cout<<"Queue values Test : "<<a<<" "<<b<<" "<<c<<std::endl;
+
+    return 0;
+*/
+
+    Queue_Linked_List<int> queue = Queue_Linked_List<int>();
+    queue.push(1);
+    queue.push(2);
+    queue.push(3);
+    int a = queue.pop();
+    int b = queue.pop();
+    int c = queue.pop();
     std::cout<<"Queue values Test : "<<a<<" "<<b<<" "<<c<<std::endl;
 
     return 0;
