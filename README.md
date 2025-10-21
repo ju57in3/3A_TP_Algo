@@ -38,7 +38,7 @@ Le tas-max est une structure où chaque parent est supérieur ou égal à ses en
     / \    / \        / \     / \
     45 75  27 90      63 32   188 95
 
-Le tas-min fonctionne de manière inverse : chaque parent est inférieur ou égal à ses enfants, et la racine contient la valeur minimale. Les principales fonctions sont insert(x), qui insère un élément en réorganisant le tas, et extract_min(), qui retire le plus petit élément (la racine).
+
 
           8
       /        \
@@ -49,10 +49,11 @@ Le tas-min fonctionne de manière inverse : chaque parent est inférieur ou éga
     45 75 90 63 32 188 95
 
 
+Le tas-min fonctionne de manière inverse : chaque parent est inférieur ou égal à ses enfants, et la racine contient la valeur minimale. Les principales fonctions sont insert(x), qui insère un élément en réorganisant le tas, et extract_min(), qui retire le plus petit élément (la racine).
 
 ## TD2
 
-Dans ce TP, nous avons étudié deux approches de résolution de problèmes : la récursivité et la programmation dynamique.
+Dans cette partie, nous avons étudié deux approches de résolution de problèmes : la récursivité et la programmation dynamique.
 
 ### Exercice 4
 Cela portait sur le calcul du PGCD de deux entiers à l’aide de l’algorithme d’Euclide récursif, basé sur la relation
