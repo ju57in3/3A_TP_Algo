@@ -1,5 +1,55 @@
 # 3A_TP_Algo
 
+## TD1
+### 1 Pile
+#### 1.1 Implémenter une pile à l'aide de tableaux
+#### 1.2 Implémenter une pile à l'aide d'une liste chaînée LIFO
+### 2 File
+#### 2.1 Implémenter une file d'attente à l'aide d'un tableau
+#### 2.2 Implémenter une file d'attente à l'aide d'une liste circulaire
+#### 2.3 Implémenter une file d'attente à l'aide d'une liste chaînée FIFO
+### 3 Tas binaire
+#### 3.1 Dessiner le tas après chaque ajout de ces nombres dans leur ordre
+           188
+        /       \
+      90         100
+     /  \       /   \
+    27   75    63    95
+    / \   / \   / \   / \
+    5 12 17 26  8 32 45
+
+#### 3.2 Dessiner le tas après chaque suppression de ces nombres du dernier tas obtenu en 3.1
+           100
+       /         \
+     90            95
+    /   \          /  \
+    27   75        63   45
+    / \   / \      / \
+    5  12 17 26    8  32
+
+#### 3.3 Implémenter les deux opérations Insérer et Extraire Max
+Le tas-max est une structure où chaque parent est supérieur ou égal à ses enfants. La racine contient donc la valeur maximale. Les principales fonctions sont insert(x), qui ajoute un élément tout en maintenant la propriété du tas, et extract_max(), qui retire le plus grand élément (la racine).
+#### 3.4 Mêmes questions pour un tas-min
+                 5
+           /             \
+         8                 12
+      /    \             /    \
+    17     11         26     100
+    / \    / \        / \     / \
+    45 75  27 90      63 32   188 95
+
+Le tas-min fonctionne de manière inverse : chaque parent est inférieur ou égal à ses enfants, et la racine contient la valeur minimale. Les principales fonctions sont insert(x), qui insère un élément en réorganisant le tas, et extract_min(), qui retire le plus petit élément (la racine).
+
+          8
+      /        \
+    11           12
+    /   \         /   \
+    17    27      26    100
+    / \   / \    / \
+    45 75 90 63 32 188 95
+
+
+
 ## TD2
 
 Dans ce TP, nous avons étudié deux approches de résolution de problèmes : la récursivité et la programmation dynamique.
