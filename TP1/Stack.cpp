@@ -2,8 +2,6 @@
 // Created by phila on 29/09/2025.
 //
 
-#ifndef ALGO_STACK_H
-#define ALGO_STACK_H
 #include <iostream>
 #include <ostream>
 
@@ -46,4 +44,10 @@ public:
 };
 
 
-#endif //ALGO_STACK_H
+int main() {
+    Stack<int> stack1 = Stack<int>(5);
+    stack1.push(1);
+    stack1.push(2);
+    stack1.push(3);
+    std::cout<<"Stack values Test : "<<stack1.pop()<<" "<<stack1.pop()<<" "<<stack1.pop()<<std::endl;
+}

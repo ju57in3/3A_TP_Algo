@@ -2,8 +2,7 @@
 // Created by Julien Metzelard on 15/10/2025.
 //
 
-#ifndef INC_3A_TP_ALGO_QUEUE_ARRAY_H
-#define INC_3A_TP_ALGO_QUEUE_ARRAY_H
+#include <iostream>
 #include <vector>
 
 template <typename T>
@@ -37,4 +36,14 @@ public:
         }
     }
 };
-#endif //INC_3A_TP_ALGO_QUEUE_ARRAY_H
+
+int main() {
+    Queue_Array<int> queue_array = Queue_Array<int>();
+    queue_array.push(1);
+    queue_array.push(2);
+    queue_array.push(3);
+    int a = queue_array.pop();
+    int b = queue_array.pop();
+    int c = queue_array.pop();
+    std::cout<<"Queue Array values Test : "<<a<<" "<<b<<" "<<c<<std::endl;
+}
