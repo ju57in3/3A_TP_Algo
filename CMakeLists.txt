@@ -16,6 +16,8 @@ add_executable(3A_TP_Algo
         #TP1/exo6.cpp
         #TP1/Tas_Max.h
         #TP1/heapMax.cpp
-        TP1/heapMin.cpp
-        TP2/exo1.cpp
+        #TP1/heapMin.cpp
+        #TP2/exo1.cpp
+        TP2/exo3.cpp
+        TP2/exo4.cpp
 )
