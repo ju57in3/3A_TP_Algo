@@ -2,8 +2,8 @@
 // Created by phila on 29/09/2025.
 //
 
-#ifndef ALGO_STACK_LINKED_LIST_H
-#define ALGO_STACK_LINKED_LIST_H
+
+#include <iostream>
 
 template <typename T>
 class Linked_Node {
@@ -44,4 +44,10 @@ public:
     }
 };
 
-#endif //ALGO_STACK_LINKED_LIST_H
+int main() {
+    Stack_linked_list<int> stack2 = Stack_linked_list<int>();
+    stack2.push(1);
+    stack2.push(2);
+    stack2.push(3);
+    std::cout<<"Stack_linked_list values Test : "<<stack2.pop()<<" "<<stack2.pop()<<" "<<stack2.pop()<<std::endl;
+}

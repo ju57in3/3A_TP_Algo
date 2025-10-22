@@ -2,8 +2,7 @@
 // Created by phila on 29/09/2025.
 //
 
-#ifndef ALGO_QUEUE_H
-#define ALGO_QUEUE_H
+#include <iostream>
 #include <vector>
 
 template <typename T>
@@ -43,4 +42,13 @@ public:
     }
 };
 
-#endif //ALGO_QUEUE_H
+int main() {
+    Queue_Array2<int> queue = Queue_Array2<int>();
+    queue.push(1);
+    queue.push(2);
+    queue.push(3);
+    int a = queue.pop();
+    int b = queue.pop();
+    int c = queue.pop();
+    std::cout<<"Queue Array2 values Test : "<<a<<" "<<b<<" "<<c<<std::endl;
+}

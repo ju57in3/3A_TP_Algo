@@ -2,8 +2,7 @@
 // Created by Julien Metzelard on 15/10/2025.
 //
 
-#ifndef INC_3A_TP_ALGO_QUEUE_LINKED_LIST_H
-#define INC_3A_TP_ALGO_QUEUE_LINKED_LIST_H
+
 #include <iostream>
 #include <ostream>
 
@@ -63,8 +62,13 @@ class Queue_Linked_List {
     }
 };
 
-
-
-
-
-#endif //INC_3A_TP_ALGO_QUEUE_LINKED_LIST_H
+int main() {
+    Queue_Linked_List<int> queue = Queue_Linked_List<int>();
+    queue.push(1);
+    queue.push(2);
+    queue.push(3);
+    int a = queue.pop();
+    int b = queue.pop();
+    int c = queue.pop();
+    std::cout<<"Queue values Test : "<<a<<" "<<b<<" "<<c<<std::endl;
+}
