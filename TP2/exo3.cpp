@@ -109,15 +109,15 @@ void adjacency_list() {
 
 int main() {
     cout << "EXERCICE 3" << endl;
-    cout << "-----------------------------------------------------" << endl;
+    cout << "----------------------------------------------------" << endl;
     cout << "Reading the file and displaying the graph : " << endl;
     read_display_graph();
-    cout << "-----------------------------------------------------" << endl;
+    cout << "----------------------------------------------------" << endl;
     cout << "Spanning tree with adjacence matrix : " << endl;
     adjacency_matrix();
-    cout << "-----------------------------------------------------" << endl;
+    cout << "----------------------------------------------------" << endl;
     cout << "Spanning tree with adjacence list : " << endl;
     adjacency_list();
-    cout << "-----------------------------------------------------" << endl;
+    cout << "----------------------------------------------------" << endl;
     return 0;
 }
